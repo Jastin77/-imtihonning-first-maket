@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: top right -150px;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Public Sans', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}

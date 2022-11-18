@@ -1,0 +1,79 @@
+.fives {
+    padding-top: 100px;
+    background: #EDF3F8;
+}
+
+.card {
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    &__item {
+        width: 350px;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.138462px;
+        color: #36536B;
+        margin-bottom: 16px;
+    }
+
+    &__text {
+        width: 100%;
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #6C8294;
+    }
+
+    &__pic {
+        margin-bottom: 32px;
+    }
+
+}
+
+@media screen and(max-width:768px) {
+    .card {
+        &__pic {
+            width: 88px;
+            height: 88px;
+        }
+
+        &__title {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.138462px;
+            color: #36536B;
+        }
+    }
+}
+@media  screen and(max-width:375px) {
+    .card{
+        &__list{
+            display: flex;
+        flex-direction: column;
+        }
+        &__pic{
+            width: 106px;
+            height: 106px;
+        }
+    }
+}

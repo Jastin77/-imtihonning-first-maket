@@ -1,0 +1,66 @@
+    .footer {
+        padding: 31px 0;
+        background-color: #1B262F;
+    }
+
+    .quti {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 560px;
+
+        &__list {
+            gap: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__nav {
+            gap: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__link {
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 18px;
+            color: #FBFCFE;
+            mix-blend-mode: normal;
+            opacity: 0.7;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    @media screen and(max-width:768px) {
+        .quti {
+            gap: 138px;
+        }
+    }
+
+    @media screen and(max-width:375px) {
+        .quti {
+            gap: 40px;
+            display: flex;
+            flex-direction: column;
+
+            &__nav {
+                gap: 40px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__list {
+                gap: 40px;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
